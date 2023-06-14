@@ -141,11 +141,6 @@ const gruffaloCrumble = {
 const listFoods = (recipe) => {
   let result = [];
   // Solution code here...
-<<<<<<< HEAD
-
-=======
-  return result;
->>>>>>> d9f33a74e0ad3437b7e861b3566a00484d26257f
 };
 
 /* ------------------------------------------------------------------------------------------------

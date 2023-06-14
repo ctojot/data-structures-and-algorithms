@@ -46,12 +46,8 @@ Write a function named removeThree that takes an index and an array. The functio
 
 const removeThree = (idx, arr) => {
   // Solution code here...
-<<<<<<< HEAD
   arr.splice(idx, 3);
   return arr;
-=======
-
->>>>>>> d9f33a74e0ad3437b7e861b3566a00484d26257f
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -62,10 +58,7 @@ Write a function named joinArray that takes an array and joins all of the elemen
 
 const joinArray = (arr) => {
   // Solution code here...
-<<<<<<< HEAD
   return arr.join(' ');
-=======
->>>>>>> d9f33a74e0ad3437b7e861b3566a00484d26257f
 };
 
 /* ------------------------------------------------------------------------------------------------

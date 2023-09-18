@@ -23,13 +23,12 @@ function lower(str) {
 
 const updateAnimal = (arr, callback) => {
   // Solution code here...
-  let newArr = [];
-
-  arr.forEach(element => {
-    newArr.push(callback(element));
-  });
-
-  return newArr;
+  const array = [];
+  for (let i = 0; i < arr.length; i++) {
+    const updatedAnimal = callback(arr[i]);
+    array.push(updatedAnimal);
+  }
+  return array;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -42,13 +41,7 @@ For example: 'Cat' would come before 'apple'
 
 const sortNames = (arr) => {
   // Solution code here...
-  let newArr = [];
-
-  arr.sort((a,b) => {
-    newArr.push(a,b);
-  });
-
-  return newArr;
+  return arr.sort();
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -61,7 +54,7 @@ HINT: Beware... JS default is "Lexical" ordering.
 
 const sortNumbers = (arr) => {
   // Solution code here...
-  return arr.sort((a,b) => a - b);
+  return arr.sort((a, b) => a - b);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -74,7 +67,7 @@ HINT: Do it with a custom sort callback, not with using `.reverse()`. ;)
 
 const sortBackwards = (arr) => {
   // Solution code here...
-  return arr.sort((a,b) => b - a);
+  return arr.sort((a, b) => b - a);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -89,16 +82,17 @@ For example, ['Alphabet', 'Zebra', 'alphabet', 'carrot'] is correctly sorted.
 
 const alphabetize = (arr) => {
   // Solution code here...
-  return arr.sort((a,b) => {
-    if (a < b) {
+  return arr.sort((a, b) => {
+    const normalizedA = a;
+    const normalizedB = b;
+
+    if (normalizedA < normalizedB) {
       return -1;
     }
-
-    if (a > b) {
+    if (normalizedA > normalizedB) {
       return 1;
     }
     return 0;
-
   });
 };
 
@@ -117,18 +111,7 @@ Here is an example of the input:
 
 const sortByPrice = (arr) => {
   // Solution code here...
-  return arr.sort((a,b) => {
-    if (a.price < b.price) {
-      return -1;
-    }
-
-    if (a.price > b.price) {
-      return 1;
-    }
-
-    return 0;
-
-  });
+  return arr.sort((a, b) => a.price - b.price);
 };
 
 /* ------------------------------------------------------------------------------------------------

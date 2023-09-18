@@ -26,17 +26,17 @@ let starWarsPeople = [
 
 const sortStarWarsCharacters = (starWarsArr) => {
   // Solution code here...
-  return starWarsArr.sort((a,b) => {
-    if (Number(a.height) > Number(b.height)) {
-      return -1;
-    }
-
-    if (Number(a.height) < Number(b.height)) {
-      return 1;
-    }
-    return 0;
+  const sortedArr = [...starWarsArr];
+  sortedArr.sort((a, b) => {
+    const heightA = parseInt(a.height);
+    const heightB = parseInt(b.height);
+    return heightB - heightA;
   });
+
+  return sortedArr;
 };
+
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
@@ -80,6 +80,7 @@ const howMuchPencil = (str) => {
   for (let i = 0; i <= str.length; i++) {
     result.push(str.slice(i));
   }
+
   return result;
 };
 
@@ -141,6 +142,9 @@ const gruffaloCrumble = {
 const listFoods = (recipe) => {
   let result = [];
   // Solution code here...
+
+
+  return result;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -154,6 +158,16 @@ You may also use other string or array methods.
 const splitFoods = (recipe) => {
   let result = [];
   // Solution code here...
+  for (const ingredient of recipe.ingredients) {
+    const firstSpaceIndex = ingredient.indexOf(' ');
+    if (firstSpaceIndex !== -1) {
+      const secondSpaceIndex = ingredient.indexOf(' ', firstSpaceIndex + 1);
+      if (secondSpaceIndex !== -1) {
+        const foodItem = ingredient.slice(secondSpaceIndex + 1);
+        result.push(foodItem);
+      }
+    }
+  }
   return result;
 };
 

@@ -21,3 +21,15 @@ To run your tests
 ### 401 Data Structures, Code Challenges
 
 - Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+
+### Code Challenege 01
+
+[Array Reverse](https://ctojot.github.io/data-structures-and-algorithms/array-reverse/README)
+
+### Code Challenge 02
+
+### Code Challenge 03
+
+### Code Challenge 04
+
+[Linked List](https://ctojot.github.io/data-structures-and-algorithms/linked-list/README)

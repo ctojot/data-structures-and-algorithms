@@ -1,6 +1,6 @@
 # Challenge Title
 
-Code Challenge 05: Extending an Implementation
+Code Challenge 06: Extending an Implementation
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->

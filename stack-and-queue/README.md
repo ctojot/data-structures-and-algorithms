@@ -1,6 +1,6 @@
 # Challenge Title
 
-Code Challenge 11: Stacks and Queues
+Code Challenge 10: Stacks and Queues
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->

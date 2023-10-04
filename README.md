@@ -60,3 +60,7 @@ To run your tests
 ### Code Challenge 11
 
 [Stack and Queue Pseudo](https://ctojot.github.com/data-structures-and-algorithms/stack-queue-pseudo/README)
+
+### Code Challenge 12
+
+[Stack Queue Animal Shelter](https://ctojot.github.com/data-structures-and-algorithms/stack-queue-animal-shelter/README)

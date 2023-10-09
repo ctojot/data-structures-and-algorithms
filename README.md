@@ -64,3 +64,17 @@ To run your tests
 ### Code Challenge 12
 
 [Stack Queue Animal Shelter](https://ctojot.github.com/data-structures-and-algorithms/stack-queue-animal-shelter/README)
+
+### Code Challenge 13
+
+[]()
+
+### Code Challenge 14
+
+[]()
+
+
+### Code Challenge 15
+
+[Trees](https://ctojot.github.com/data-structures-and-algorithms/trees/README)
+

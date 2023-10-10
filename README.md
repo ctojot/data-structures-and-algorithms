@@ -78,3 +78,7 @@ To run your tests
 
 [Trees](https://ctojot.github.com/data-structures-and-algorithms/trees/README)
 
+### Code Challenge 16
+
+[Tree Max](https://ctojot.github.com/data-structures-and-algorithms/tree-max/README)
+

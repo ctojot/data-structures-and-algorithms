@@ -51,7 +51,14 @@ class HashTable {
 
   has(key) {
     const index = this.hash(key);
-    return !!this.table[index];
+    if (this.table[target]) {
+      for (let i = 0; i < this.table.length; i++) {
+        if (this.table[target][i][0] === key) {
+          return !!this.table[target][i][1];
+        }
+      }
+    }
+    return false;
   }
 
   hash(key) {

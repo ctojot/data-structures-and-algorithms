@@ -82,3 +82,6 @@ To run your tests
 
 [Tree Max](https://ctojot.github.com/data-structures-and-algorithms/tree-max/README)
 
+### Code Challenge 30
+
+[Hash Table](https://ctojot.github.com/data-structures-and-algorithms/hashtable/README)

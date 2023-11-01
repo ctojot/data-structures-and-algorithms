@@ -85,3 +85,7 @@ To run your tests
 ### Code Challenge 30
 
 [Hash Table](https://ctojot.github.com/data-structures-and-algorithms/hashtable/README)
+
+### Code Challenge 32
+
+[Tree Intersection](https://ctojot.github.com.data-structures-and-algorithhms/tree-intersection/README)

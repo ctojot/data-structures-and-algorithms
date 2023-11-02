@@ -89,3 +89,7 @@ To run your tests
 ### Code Challenge 32
 
 [Tree Intersection](https://ctojot.github.com.data-structures-and-algorithhms/tree-intersection/README)
+
+### Code Challenge 33
+
+[Hashmap Left Join](https://ctojot.github.com.data-structures-and-algorithhms/hashmap-left-join/README)

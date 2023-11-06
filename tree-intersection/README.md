@@ -34,7 +34,7 @@ Space Complexity: O(h) h being the height on the tree.
 
 checkIntersection() takes a node as a parameter. This one will iterate through the tree2 and compare its values with the values stored from tree1. If it finds similar values between the 2 tree, said value will be pushed into the results array
 
-Time Complexity: O(n+m)
+Time Complexity: O(n+m)5
 
 Space Complexity: O(h)
 
